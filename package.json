@@ -1,0 +1,21 @@
+{
+  "name": "bms",
+  "version": "1.0.1",
+  "description": "business management",
+  "main": "index.html",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bms"
+  },
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "node": "^20.15.0"
+  },
+  "keywords": []
+}
