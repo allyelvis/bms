@@ -1,0 +1,6 @@
+# Python specific
+*.pyc
+__pycache__/
+
+# Node.js specific
+node_modules/
