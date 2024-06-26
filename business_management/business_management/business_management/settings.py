@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-sc9c6#^5t+%$02g*g^10@tejebzwkf8xe&x&u1l3pwjg0(7j8j'
+SECRET_KEY = 'django-insecure-krrzyt7px%n6619uc67226x91cha_-%!j0g-3rla-y-ur!c5jq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -121,54 +121,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# Added for MySQL configuration
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'your_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'mysql-28d68f05-allyelvis6569-cc54.a.aivencloud.com',
-        'PORT': '12080',
-    }
-}
-
-INSTALLED_APPS += [
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'core',
-]
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-}
-
-# Added for MySQL configuration
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'your_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'mysql-28d68f05-allyelvis6569-cc54.a.aivencloud.com',
-        'PORT': '12080',
-    }
-}
-
-INSTALLED_APPS += [
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'core',
-]
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-}
 
 # Database Configuration
 DATABASES = {

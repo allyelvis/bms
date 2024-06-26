@@ -1,0 +1,22 @@
+{
+  "name": "bms",
+  "version": "1.0.1",
+  "description": "bms",
+  "main": "index.js",
+  "scripts": {
+    "test": "run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyelvis/bms.git"
+  },
+  "keywords": [
+    "aenzbi"
+  ],
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allyelvis/bms/issues"
+  },
+  "homepage": "https://github.com/allyelvis/bms#readme"
+}
