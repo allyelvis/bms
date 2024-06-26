@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
+  "env": {
+    "BASE_URL": "http://your-external-endpoint.com",
+    "USERNAME": "your_username",
+    "PASSWORD": "your_password"
+  }
+}
