@@ -1,4 +1,11 @@
 modules = ["bash", "nodejs-20", "python-3.10"]
+run = "npm install"
 
 [nix]
 channel = "stable-23_11"
+
+[[ports]]
+localPort = 9005
+
+[deployment]
+run = ["sh", "-c", "npm install"]
