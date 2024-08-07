@@ -1,5 +1,8 @@
 {pkgs}: {
   deps = [
+    pkgs.mullvad
+    pkgs.run
+    pkgs.python310Packages.clvm-tools
     pkgs.haskellPackages.synthesizer-midi
     pkgs.midori-unwrapped
     pkgs.haskellPackages.alsa-midi

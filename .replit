@@ -11,5 +11,9 @@ externalPort = 80
 [[ports]]
 localPort = 9005
 
+[[ports]]
+localPort = 45249
+externalPort = 3000
+
 [deployment]
 run = ["sh", "-c", "npm install"]
