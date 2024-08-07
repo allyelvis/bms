@@ -1,5 +1,7 @@
 {pkgs}: {
   deps = [
+    pkgs.python311Packages.gtts
+    pkgs.ffmpeg-full
     pkgs.firebase-tools
     pkgs.codimd
     pkgs.python311Packages.django_5

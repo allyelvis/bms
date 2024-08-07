@@ -5,6 +5,10 @@ run = "npm install"
 channel = "stable-23_11"
 
 [[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
 localPort = 9005
 
 [deployment]
