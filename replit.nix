@@ -1,5 +1,7 @@
 {pkgs}: {
   deps = [
+    pkgs.python310Packages.pwntools
+    pkgs.sox
     pkgs.mullvad
     pkgs.run
     pkgs.python310Packages.clvm-tools
