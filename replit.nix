@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.timidity
     pkgs.python310Packages.pwntools
     pkgs.sox
     pkgs.mullvad
